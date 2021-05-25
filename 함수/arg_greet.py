@@ -1,6 +1,7 @@
 def greet(*names):
-    print(greet)
-    for i in names:
-        print(i)
+    for name in names:
+        print('안녕하세요', name, '씨')
 
-greet('a','b','c')
+
+greet('홍길동', '양만춘', '이순신') # 인자가 3개
+greet('James', 'Thomas') # 인자가 2개
